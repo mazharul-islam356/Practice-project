@@ -1,7 +1,7 @@
 *{  padding: 0;
     margin: 0;
 }
-body{
+header{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
@@ -43,4 +43,25 @@ nav a{
 }
 .name-txt{
     color: orange;
+}
+.my-pic{
+    width: 500px;
+    height: 500px;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-pic{
+    height: 500px;
+    width: 500px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(227, 228, 229);
+}
+.banner-st{
+    margin-left: 30px;
 }
