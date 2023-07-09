@@ -1,67 +1,29 @@
-*{  padding: 0;
-    margin: 0;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-header{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Slab', serif;
-}
-nav{
-    background-color: rgb(227, 228, 229);
+
+/* navbar */
+.p-nav{
     display: flex;
-    justify-content: space-between;
-    padding: 15px 35px 20px 35px;
-}
-nav h1{
-    font-size: 35px;
-}
-nav ul {
-    display: flex;
+    justify-content: space-around;
     align-items: center;
+    background-color: lightblue;
 }
-nav li{
+.menus ul{
+    display: flex;
+}
+.menus li{
     list-style: none;
-    margin-right: 10px;
+    padding: 10px;
     font-size: 20px;
-    padding: 10px ;
 }
-nav a{
+.menus a{
     text-decoration: none;
-}
-.primary-btn{
-    background-color: orange;
-    border: 0;
-    font-size: 15px;
-    padding: 15px 15px;
-    border-radius: 5px;
-    font-weight: 700;
     color: white;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
-.primary-btn:hover{
-    color: blueviolet;
+.menus a:hover{
+    color: black;
     transition: 1s;
-}
-.name-txt{
-    color: orange;
-}
-.my-pic{
-    width: 500px;
-    height: 500px;
-}
-.header1{
-    display: flex;
-    justify-content: space-between;
-}
-.banner-pic{
-    height: 500px;
-    width: 500px;
-}
-.banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(227, 228, 229);
-}
-.banner-st{
-    margin-left: 30px;
 }
