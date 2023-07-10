@@ -9,6 +9,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: lightblue;
+    height: 85px;
 }
 .menus ul{
     display: flex;
@@ -27,3 +28,94 @@
     color: black;
     transition: 1s;
 }
+.banner-container{
+    background-image: url('../Images/main.jpg'),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.banner-container h1{
+    font-size: 60px
+}
+.banner-container p{
+    font-size: 20px;
+}
+.discover{
+    padding: 8px 8px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.hire{
+    padding: 8px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/* navbar end */
+/* main st */
+.p-main1{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+    background-image: url('../Images/Dot-PNG-Isolated-Photos.png'),linear-gradient(rgba(0,0,00.8), rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+}
+.p-main1>h1,p{
+    margin-left: 100px;
+}
+.p-main12{
+    margin-left: 100px;
+}
+.p-main1 li{
+    margin-left: 113px;
+}
+.boxs-info{
+    font-size: 18px;
+    width: 50%;
+}
+.primary-icon{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+.all-box{
+    
+}
+.first-tow-box{
+    display:flex;
+    margin-top: 15px;
+    
+}
+.all-box .primary-icon{
+    color: black;
+    margin-top: 60px;
+}
+.all-box h3{
+    color: black;
+}
+.box-info{
+    text-align: center;
+    height: 258px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+
